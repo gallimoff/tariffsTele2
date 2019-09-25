@@ -5,6 +5,7 @@ public class Main {
         Calls calls = new Calls();
         Sms sms = new Sms();
 
+
         tariff.id = 1;
         tariff.name = "Мой онлайн";
         tariff.priceInRublesPerMonth = 290;
@@ -15,8 +16,9 @@ public class Main {
         System.out.println("Id " + tariff.id);
         System.out.println("Tariff name - " + tariff.name);
         System.out.println("Tariff price - " + tariff.priceInRublesPerMonth + " rubles per month");
-
-        System.out.println("internet size - " + internet.internetSizeInMb + " megabytes");
+        if( internet.internetSizeInMb > internet.megabytesInOneGigabytes){
+                int gigabyte  = internet.internetSizeInMb / internet.megabytesInOneGigabytes;
+        System.out.println("internet size - " + gigabyte + " gigabytes");}
         System.out.println("Unlimited Social Networks - " + internet.unlimitedSocialNetworks );
         System.out.println("Minutes " + calls.minutes);
         System.out.println("Unlimited calls Tele2 - " + calls.unlimitedTele2);
@@ -34,7 +36,9 @@ public class Main {
         System.out.println("Id " + tariff.id);
         System.out.println("Tariff name - " + tariff.name);
         System.out.println("Tariff price - " + tariff.priceInRublesPerMonth + " rubles per month");
-        System.out.println("internet size - " + internet.internetSizeInMb + " megabytes");
+        if(internet.internetSizeInMb > internet.megabytesInOneGigabytes){
+            int gigabyte  = internet.internetSizeInMb / internet.megabytesInOneGigabytes;
+            System.out.println("internet size - " + gigabyte + " gigabytes");}
         System.out.println("Unlimited Social Networks - " + internet.unlimitedSocialNetworks );
         System.out.println("Internet Abroad - " + internet.internetAbroad );
         System.out.println("Minutes " + calls.minutes);
@@ -51,7 +55,9 @@ public class Main {
         System.out.println("Id " + tariff.id);
         System.out.println("Tariff name - " + tariff.name);
         System.out.println("Tariff price - " + tariff.priceInRublesPerMonth + " rubles per month");
-        System.out.println("internet size - " + internet.internetSizeInMb + " megabytes");
+        if(internet.internetSizeInMb > internet.megabytesInOneGigabytes){
+            int gigabyte  = internet.internetSizeInMb / internet.megabytesInOneGigabytes;
+            System.out.println("internet size - " + gigabyte + " gigabytes");}
         System.out.println("Minutes " + calls.minutes);
         System.out.println("Unlimited calls Tele2 - " + calls.unlimitedTele2);
 
@@ -65,7 +71,9 @@ public class Main {
         System.out.println("Id " + tariff.id);
         System.out.println("Tariff name - " + tariff.name);
         System.out.println("Tariff price - " + tariff.getPriceInRublesPerDay + " rubles per day");
-        System.out.println("internet size - " + internet.internetSizeInMb + " megabytes");
+        if(internet.internetSizeInMb > internet.megabytesInOneGigabytes){
+            int gigabyte  = internet.internetSizeInMb / internet.megabytesInOneGigabytes;
+            System.out.println("internet size - " + gigabyte + " gigabytes");}
         System.out.println("Unlimited calls Tele2 - " + calls.unlimitedTele2);
 
         System.out.println('\n');
@@ -81,7 +89,9 @@ public class Main {
         System.out.println("Id " + tariff.id);
         System.out.println("Tariff name - " + tariff.name);
         System.out.println("Tariff price - " + tariff.priceInRublesPerMonth + " rubles per month");
-        System.out.println("internet size - " + internet.internetSizeInMb + " megabytes");
+        if(internet.internetSizeInMb > internet.megabytesInOneGigabytes){
+            int gigabyte  = internet.internetSizeInMb / internet.megabytesInOneGigabytes;
+            System.out.println("internet size - " + gigabyte + " gigabytes");}
         System.out.println("Unlimited Internet - " + internet.unlimitedInternet);
         System.out.println("Minutes " + calls.minutes);
         System.out.println("Unlimited calls Tele2 - " + calls.unlimitedTele2);
@@ -116,7 +126,9 @@ public class Main {
         System.out.println("Id " + tariff.id);
         System.out.println("Tariff name - " + tariff.name);
         System.out.println("Tariff price - " + tariff.priceInRublesPerMonth + " rubles per month");
-        System.out.println("internet size - " + internet.internetSizeInMb + " megabytes");
+        if(internet.internetSizeInMb > internet.megabytesInOneGigabytes){
+            int gigabyte  = internet.internetSizeInMb / internet.megabytesInOneGigabytes;
+            System.out.println("internet size - " + gigabyte + " gigabytes");}
         System.out.println("Minutes " + calls.minutes);
         System.out.println("Unlimited calls Tele2 - " + calls.unlimitedTele2);
         System.out.println("Sms - " + sms.numberOfSms);
