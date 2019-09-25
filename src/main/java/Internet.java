@@ -1,5 +1,5 @@
 public class Internet {
-     int internetSize;
+     int internetSizeInMb;
      boolean unlimitedSocialNetworks;
      boolean unlimitedInternet;
      boolean internetAbroad;
