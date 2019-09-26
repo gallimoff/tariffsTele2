@@ -1,7 +1,7 @@
 public class Tariff {
      int id;
      String name;
-     String payment = "Rubles per month";
+     String payment;
      int priceInRublesPerMonth;
      int priceInRublesPerDay;
      boolean noMonthlyFee;
